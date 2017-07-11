@@ -42,7 +42,25 @@
    </div>
 
    <div class="swiper">
-     <img src="./09c6c6a15c2d48d19a03b473a7c3764a_d1242x0.jpg"/>
+     <!--<img src="./09c6c6a15c2d48d19a03b473a7c3764a_d1242x0.jpg"/>-->
+     <mt-swipe :auto="2000">
+       <mt-swipe-item>
+         <div>
+           <img src="./09c6c6a15c2d48d19a03b473a7c3764a_d1242x0.jpg"/>
+         </div>
+
+       </mt-swipe-item>
+       <mt-swipe-item>
+         <div>
+           <img src="./09c6c6a15c2d48d19a03b473a7c3764a_d1242x0.jpg"/>
+         </div>
+       </mt-swipe-item>
+       <mt-swipe-item>
+         <div>
+           <img src="./09c6c6a15c2d48d19a03b473a7c3764a_d1242x0.jpg"/>
+         </div>
+       </mt-swipe-item>
+     </mt-swipe>
    </div>
 
    <div class="img-wrap1">
@@ -70,7 +88,8 @@
 
 <script>
   import Vue from 'vue'
-  import Swiper from 'vue-swiper'
+  import { Swipe, SwipeItem } from 'mint-ui';
+
     export default {
         data () {
             return {}
@@ -127,9 +146,10 @@
     height :250px
     margin-top :94px
     img
-      width :100%
+        width :100%
       /*height :100%*/
   .img-wrap1
+    overflow :hidden
     width :100%
     height :90px
     background :#eee

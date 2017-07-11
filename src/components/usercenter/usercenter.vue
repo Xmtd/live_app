@@ -9,9 +9,11 @@
         <span>您还未登录</span>
       </div>
       <div class="login-register">
-        <a href="javascript:;" @click="registerShow=true">登录</a>
+        <!--<a href="javascript:;" @click="registerShow=true">登录</a>-->
+        <router-link to="/register">登录</router-link>
         <span></span>
-        <a href="javascript:;">注册</a>
+        <router-link to="/login">注册</router-link>
+        <!--<a href="javascript:;">注册</a>-->
       </div>
     </div>
 
@@ -120,11 +122,11 @@
 
     </div>
 
-    <div class="register-page" v-show="registerShow">
-      <label @click="registerShow=false"></label>
+   <!-- <div class="login-page" v-show="true">
+      <label></label>
       <div class="register-head"></div>
       <div class="register-main">
-        <h1>老用户登录</h1>
+        <h1>新用户注册</h1>
         <div class="register-input">
           <form>
             <ul>
@@ -132,23 +134,25 @@
                 <input type="tel" placeholder="请输入手机号"/>
               </li>
               <li>
-                <input type="password" placeholder="请输入登录密码"/>
-                <a href="#">忘记密码</a>
+                <input type="password" placeholder="请设置6-20位密码,包含字母、数字或符号"/>
+              </li>
+              <li class="li4" >
+                <input type="text" placeholder="请输入图形验证码"/>
+                <img class="img1" src="http://account.lifevc.com/Account/NewVerifyCode?t=1499757950636" style="width: 20%; border-left: 0px solid silver;">
+                <img class="img2" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAM1BMVEUAAACZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZlkqvaGAAAAEHRSTlMAv4DvMCBAz3BgnxDfj69Q1PbwmQAAAXZJREFUSMelVe2ChCAIJPGr1Or9n/Y0duWSLdq7+bXJDIzIKtxhNid4kEhxXV3/mvYznKAbrMvmUmAHfsS2irLCRChD+iOMpfFZcOQIFiQsNrpJACeB8Uee+TN/6tlZ8HJaPvEjgBS0YKjB5RRxyGWlAFIY0wXmC0FXbBwwnEAKugJTN1T5K1wI2DRzlqZWBLDVrJ4LRNAEsNa206+y7xl0geslkJcHFKJ057QLz3Mr4H8HbCUm6mmAR8h0WGxUQ6EBQTaqYKM+0RZ0UJ9oz/AQfxHYbwX++wruO8G7ziNYEgSeVQUzzcRC56eCmKTDZwKkWXJ0AejY3jMx0YhoYN78rE+enWTavV4gc7v0v0SkAvwOWOXQkGzwLYXujp/yOyebCjcKeRuXuoD20k/exTgsTREvZgiJPyroCRJw6z7weR8tYAc3LdHFPNtwxAK/+N7QUuYs8qEmxlSRXx9obtoX8z4gm6QcaQnMDsXCE3gfjYmeyP/FD9AJGvpG5XjtAAAAAElFTkSuQmCC" style="width: 5%;">
+              </li>
+              <li>
+                <input type="text" placeholder="请输入手机验证码"/>
+                <a href="#">获取验证码</a>
               </li>
             </ul>
+            <p>遇到问题？请<a id="p-a" href="#">联系客服</a></p>
+            <input type='button' value="注册" class="input input-1">
+            <input type='button' value="登录" class="input input-2">
           </form>
-          <div class="quick-login">
-            <a href="#">
-              <span>手机号快捷登录</span>
-              <b></b>
-            </a>
-          </div>
         </div>
-        <input type='button' value="登录" class="input input-1">
-        <input type='button' value="注册" class="input input-2">
-
       </div>
-    </div>
+    </div>-->
 
   </div>
 </template>
@@ -157,7 +161,7 @@
     export default {
         data () {
             return {
-              registerShow :false
+
             }
         }
     }
@@ -360,14 +364,14 @@
           border-bottom :none
           border-left :none
 
-  .register-page
+  /*.login-page
     position :fixed
     z-index :567
     left :0
     top :0
     bottom :0
     right :0
-    /*background :darkcyan*/
+    !*background :darkcyan*!
     .register-head
       width :100%
       height :141px
@@ -401,52 +405,91 @@
       background-size :100%
       h1
         text-align :center
-        height :84px
+        height :64px
         line-height :76px
         font-size :20px
+        color:green
       .register-input
         width :100%
         height :152px
-        ul
-          height :102px
+        form
+          height :331px
           width :100%
-          li
-            height :51px
+          .input
+            display :block
+            width :80%
+            height :39px
+            margin :0 auto
+            border-radius :8px
+            color :white
+            font-size :19px
+            text-align :center
+            letter-spacing :20px
+            text-indent: 20px
+          .input-1
+            background :#3AAD36
+            margin-bottom :15px
+            margin-top :5px
+          .input-2
+            background :#B8B8B8
+          p
+            font-size :14px
             width :100%
             text-align :center
-            position :relative
-            &:after
-              content :''
-              display :inline-block
-              width :337.5px
-              height :1px
-              background :#C0C0C0
-              position :absolute
-              left: 17px;
-              top: 50px;
-            input
-              width :337.5px
-              height :50px
-              outline :none
-              font-size :16px
-              background-color:transparent;
-              border :none
-            a
-              display :inline-block
+            margin-top :10px
+            #p-a
+              font-size :14px
+              color: #3ea438;
+              text-decoration: underline
+          ul
+            height :204px
+            width :100%
+            .li4
+              .img1
+                position :absolute
+                right :36px
+                top:13px
+              .img2
+                position :absolute
+                right: 11px;
+                top: 18px;
+            li
+              height :51px
+              width :100%
               text-align :center
-              width: 96px
-              height: 31px
-              line-height :31px
-              border :1px solid green
-              position :absolute
-              top: 8px;
-              right: 21px
-              border-radius:4px
-              font-size :16px
-              color :green
+              position :relative
+              &:after
+                content :''
+                display :inline-block
+                width :337.5px
+                height :1px
+                background :#C0C0C0
+                position :absolute
+                left: 17px;
+                top: 50px;
+              input
+                width :337.5px
+                height :50px
+                outline :none
+                font-size :16px
+                background-color:transparent;
+                border :none
+              a
+                display :inline-block
+                text-align :center
+                width: 96px
+                height: 31px
+                line-height :31px
+                border :1px solid green
+                position :absolute
+                top: 8px;
+                right: 21px
+                border-radius:4px
+                font-size :16px
+                color :green*/
 
 
-        .quick-login
+        /*.quick-login
           width :100%
           height :50px
           position :relative
@@ -480,13 +523,13 @@
 
         color :white
         font-size :19px
-        /*text-align :center*/
+        !*text-align :center*!
         letter-spacing :20px
         text-indent: 20px
       .input-1
         background :#3AAD36
         margin-bottom :15px
       .input-2
-        background :#B8B8B8
+        background :#B8B8B8*/
 </style>
 

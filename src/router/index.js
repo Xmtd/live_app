@@ -5,6 +5,8 @@ import home from '../components/home/home.vue'
 import stroll from '../components/stroll/stroll.vue'
 import usercenter from '../components/usercenter/usercenter.vue'
 import cart from '../components/cart/cart.vue'
+import register from '../components/register/register.vue'
+import login from '../components/login/login.vue'
 
 
 Vue.use(Router)
@@ -54,6 +56,14 @@ export default new Router({
     {
       path :'/usercenter',
       component :usercenter
+    },
+    {
+      path :'/register',
+      component :register
+    },
+    {
+      path:'/login',
+      component :login
     }
   ]
 })
