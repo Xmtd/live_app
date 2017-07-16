@@ -4,123 +4,129 @@
       <span>账户中心</span>
       <a>设置</a>
     </div>
-    <div class="register">
-      <div class="no-register">
-        <span>您还未登录</span>
+    <scroller>
+      <div class="sd" style="padding-bottom :43px">
+        <div class="register">
+          <div class="no-register">
+            <span>您还未登录</span>
+          </div>
+          <div class="login-register">
+            <!--<a href="javascript:;" @click="registerShow=true">登录</a>-->
+            <router-link to="/register">登录</router-link>
+            <span></span>
+            <router-link to="/login">注册</router-link>
+            <!--<a href="javascript:;">注册</a>-->
+          </div>
+        </div>
+
+        <div class="procedure-wrap">
+          <ul class="procedure-top">
+            <li>
+              <span class="sp sp1"></span>
+              <a>待支付</a>
+            </li>
+            <li>
+              <span class="sp sp2"></span>
+              <a>待发货</a>
+            </li>
+            <li>
+              <span class="sp sp3"></span>
+              <a>待收货</a>
+            </li>
+          </ul>
+          <ul class="procedure-bottom">
+            <li>
+              <span class="sp sp1"></span>
+              <a>待评论</a>
+            </li>
+            <li>
+              <span class="sp sp2"></span>
+              <a>回复</a>
+            </li>
+            <li>
+              <span class="sp sp3"></span>
+              <a>退换货</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="dashboard">
+          <ul class="dashboard-1">
+            <li>
+              <a>
+                <img src="./wodedingdan.png"/>
+                <span class="sp1">我的订单</span>
+                <span class="sp2"></span>
+              </a>
+            </li>
+          </ul>
+          <ul class="dashboard-2">
+            <li>
+              <a>
+                <img src="./youhuiquan.png"/>
+                <span class="sp1">我的优惠券</span>
+                <span class="sp2"></span>
+              </a>
+            </li>
+            <li>
+              <a>
+                <img src="./jifen.png"/>
+                <span class="sp1">现金积分</span>
+                <span class="sp2"></span>
+              </a>
+            </li>
+            <li>
+              <a>
+                <img src="./fapiao.png"/>
+                <span class="sp1">关于发票</span>
+                <span class="sp2"></span>
+              </a>
+            </li>
+          </ul>
+          <ul class="dashboard-3">
+            <li>
+              <a>
+                <img src="./mimadenglu.png"/>
+                <span class="sp1">密码和登录信息</span>
+                <span class="sp2"></span>
+              </a>
+            </li>
+            <li>
+              <a>
+                <img src="./huiyuanjianyi.png"/>
+                <span class="sp1">老会员建议</span>
+                <span class="sp2"></span>
+              </a>
+            </li>
+            <li>
+              <a>
+                <img src="./fapiao.png"/>
+                <span class="sp1">客户服务</span>
+                <span class="sp2"></span>
+              </a>
+            </li>
+            <li>
+              <a>
+                <img src="./dizhiguanli.png"/>
+                <span class="sp1">地址管理</span>
+                <span class="sp2"></span>
+              </a>
+            </li>
+            <li>
+              <a>
+                <img src="./shoujiyanzheng.png"/>
+                <span class="sp1">手机验证</span>
+                <span class="sp2"></span>
+              </a>
+            </li>
+          </ul>
+
+
+        </div>
       </div>
-      <div class="login-register">
-        <!--<a href="javascript:;" @click="registerShow=true">登录</a>-->
-        <router-link to="/register">登录</router-link>
-        <span></span>
-        <router-link to="/login">注册</router-link>
-        <!--<a href="javascript:;">注册</a>-->
-      </div>
-    </div>
-
-    <div class="procedure-wrap">
-      <ul class="procedure-top">
-        <li>
-          <span class="sp sp1"></span>
-          <a>待支付</a>
-        </li>
-        <li>
-          <span class="sp sp2"></span>
-          <a>待发货</a>
-        </li>
-        <li>
-          <span class="sp sp3"></span>
-          <a>待收货</a>
-        </li>
-      </ul>
-      <ul class="procedure-bottom">
-        <li>
-          <span class="sp sp1"></span>
-          <a>待评论</a>
-        </li>
-        <li>
-          <span class="sp sp2"></span>
-          <a>回复</a>
-        </li>
-        <li>
-          <span class="sp sp3"></span>
-          <a>退换货</a>
-        </li>
-      </ul>
-    </div>
-
-    <div class="dashboard">
-      <ul class="dashboard-1">
-      <li>
-        <a>
-          <img src="./wodedingdan.png"/>
-          <span class="sp1">我的订单</span>
-          <span class="sp2"></span>
-        </a>
-      </li>
-    </ul>
-      <ul class="dashboard-2">
-        <li>
-          <a>
-            <img src="./youhuiquan.png"/>
-            <span class="sp1">我的优惠券</span>
-            <span class="sp2"></span>
-          </a>
-        </li>
-        <li>
-          <a>
-            <img src="./jifen.png"/>
-            <span class="sp1">现金积分</span>
-            <span class="sp2"></span>
-          </a>
-        </li>
-        <li>
-          <a>
-            <img src="./fapiao.png"/>
-            <span class="sp1">关于发票</span>
-            <span class="sp2"></span>
-          </a>
-        </li>
-      </ul>
-      <ul class="dashboard-3">
-        <li>
-          <a>
-            <img src="./mimadenglu.png"/>
-            <span class="sp1">密码和登录信息</span>
-            <span class="sp2"></span>
-          </a>
-        </li>
-        <li>
-          <a>
-            <img src="./huiyuanjianyi.png"/>
-            <span class="sp1">老会员建议</span>
-            <span class="sp2"></span>
-          </a>
-        </li>
-        <li>
-          <a>
-            <img src="./fapiao.png"/>
-            <span class="sp1">客户服务</span>
-            <span class="sp2"></span>
-          </a>
-        </li>
-        <li>
-          <a>
-            <img src="./dizhiguanli.png"/>
-            <span class="sp1">地址管理</span>
-            <span class="sp2"></span>
-          </a>
-        </li>
-        <li>
-          <a>
-            <img src="./shoujiyanzheng.png"/>
-            <span class="sp1">手机验证</span>
-            <span class="sp2"></span>
-          </a>
-        </li>
-      </ul>
+    </scroller>
 
 
-    </div>
 
    <!-- <div class="login-page" v-show="true">
       <label></label>
@@ -179,6 +185,7 @@
     text-align :center
     color :white
     font-size :2rem
+    z-index :3
     a
       position :absolute
       color :white
@@ -340,7 +347,7 @@
     .dashboard-3
       height :306px
       padding-bottom :66px
-      background :#eee
+      background :white
       li
         height :62px
         line-height :62px

@@ -25,7 +25,9 @@
           </ul>
           <p>遇到问题？请<a id="p-a" href="#">联系客服</a></p>
           <input type='button' value="注册" class="input input-1">
-          <input type='button' value="登录" class="input input-2">
+          <router-link to="/register">
+            <input type='button' value="登录" class="input input-2">
+          </router-link>
         </form>
       </div>
     </div>

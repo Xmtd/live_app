@@ -3,99 +3,128 @@
     <div class="stroll-header">
       <span>闲逛</span>
     </div>
-    <div class="stroll-wrap">
-      <div class="stroll-left">
-        <div class="stroll-item">
-          <div class="stroll-type-item">
-            <div class="stroll-item-layer">
-              <img class="stroll-item-img" src='./e726ff1fb1d44685a91cf76ff56d5018.jpg'>
-              <span class="tag-new">New</span>
-            </div>
-            <h3 class="stroll-item-title">
-              <a href="javascript:;">分类整理收纳箱</a>
-            </h3>
-            <div class="stroll-price-bar">
-              <span class="price">￥<a>49</a></span>
-              <span class="comment">月销 4082</span>
-            </div>
-          </div> <!----> <!----></div>
-        <div class="stroll-item">
-        <div class="stroll-type-item">
-          <div class="stroll-item-layer">
-            <img class="stroll-item-img" src='./e726ff1fb1d44685a91cf76ff56d5018.jpg'>
-            <span class="tag-new">New</span>
-          </div>
-          <h3 class="stroll-item-title">
-            <a href="javascript:;">分类整理收纳箱</a>
-          </h3>
-          <div class="stroll-price-bar">
-            <span class="price">￥<a>49</a></span>
-            <span class="comment">月销 4082</span>
-          </div>
-        </div> <!----> <!----></div>
-        <div class="stroll-item">
-        <div class="stroll-type-item">
-          <div class="stroll-item-layer">
-            <img class="stroll-item-img" src='./e726ff1fb1d44685a91cf76ff56d5018.jpg'>
-            <span class="tag-new">New</span>
-          </div>
-          <h3 class="stroll-item-title">
-            <a href="javascript:;">分类整理收纳箱</a>
-          </h3>
-          <div class="stroll-price-bar">
-            <span class="price">￥<a>49</a></span>
-            <span class="comment">月销 4082</span>
-          </div>
-        </div> <!----> <!----></div>
+    <scroller>
+      <div class="stroll-wrap" style="padding-bottom: 102px">
+        <div class="stroll-left">
+          <div class="stroll-item">
+            <div class="stroll-type-item">
+              <div class="stroll-item-layer">
+                <img class="stroll-item-img" src='./e726ff1fb1d44685a91cf76ff56d5018.jpg'>
+                <span class="tag-new">New</span>
+              </div>
+              <h3 class="stroll-item-title">
+                <a href="javascript:;">分类整理收纳箱</a>
+              </h3>
+              <div class="stroll-price-bar">
+                <span class="price">￥<a>49</a></span>
+                <span class="comment">月销 4082</span>
+              </div>
+            </div> <!----> <!----></div>
+          <div class="stroll-item">
+            <div class="stroll-type-item">
+              <div class="stroll-item-layer">
+                <img class="stroll-item-img" src='./e726ff1fb1d44685a91cf76ff56d5018.jpg'>
+                <span class="tag-new">New</span>
+              </div>
+              <h3 class="stroll-item-title">
+                <a href="javascript:;">分类整理收纳箱</a>
+              </h3>
+              <div class="stroll-price-bar">
+                <span class="price">￥<a>49</a></span>
+                <span class="comment">月销 4082</span>
+              </div>
+            </div> <!----> <!----></div>
+          <div class="stroll-item">
+            <div class="stroll-type-item">
+              <div class="stroll-item-layer">
+                <img class="stroll-item-img" src='./e726ff1fb1d44685a91cf76ff56d5018.jpg'>
+                <span class="tag-new">New</span>
+              </div>
+              <h3 class="stroll-item-title">
+                <a href="javascript:;">分类整理收纳箱</a>
+              </h3>
+              <div class="stroll-price-bar">
+                <span class="price">￥<a>49</a></span>
+                <span class="comment">月销 4082</span>
+              </div>
+            </div> <!----> <!----></div>
+          <div class="stroll-item">
+            <div class="stroll-type-item">
+              <div class="stroll-item-layer">
+                <img class="stroll-item-img" src='./e726ff1fb1d44685a91cf76ff56d5018.jpg'>
+                <span class="tag-new">New</span>
+              </div>
+              <h3 class="stroll-item-title">
+                <a href="javascript:;">分类整理收纳箱</a>
+              </h3>
+              <div class="stroll-price-bar">
+                <span class="price">￥<a>49</a></span>
+                <span class="comment">月销 4082</span>
+              </div>
+            </div> <!----> <!----></div>
 
-      </div>
-      <div class="stroll-right">
-        <div class="stroll-wrap2">
-          <div class="cat-menu-a">
-            <span>40元包一年</span>
-          </div>
-          <div class="cat-menu-a">
-            <span>今日新品</span>
-          </div>
-          <div class="cat-menu-a">
-            <span>送500元积分</span>
-          </div>
-          <div class="cat-menu-a">
-            <span>金币商城</span>
-          </div>
         </div>
-        <div class="stroll-item">
-          <div class="stroll-type-item">
-            <div class="stroll-item-layer">
-              <img class="stroll-item-img" src='./e726ff1fb1d44685a91cf76ff56d5018.jpg'>
-              <span class="tag-new">New</span>
+        <div class="stroll-right">
+          <div class="stroll-wrap2">
+            <div class="cat-menu-a">
+              <span>40元包一年</span>
             </div>
-            <h3 class="stroll-item-title">
-              <a href="javascript:;">分类整理收纳箱</a>
-            </h3>
-            <div class="stroll-price-bar">
-              <span class="price">￥<a>49</a></span>
-              <span class="comment">月销 4082</span>
+            <div class="cat-menu-a">
+              <span>今日新品</span>
             </div>
-          </div> <!----> <!----></div>
-        <div class="stroll-item">
-          <div class="stroll-type-item">
-            <div class="stroll-item-layer">
-              <img class="stroll-item-img" src='./e726ff1fb1d44685a91cf76ff56d5018.jpg'>
-              <span class="tag-new">New</span>
+            <div class="cat-menu-a">
+              <span>送500元积分</span>
             </div>
-            <h3 class="stroll-item-title">
-              <a href="javascript:;">分类整理收纳箱</a>
-            </h3>
-            <div class="stroll-price-bar">
-              <span class="price">￥<a>49</a></span>
-              <span class="comment">月销 4082</span>
+            <div class="cat-menu-a">
+              <span>金币商城</span>
             </div>
-          </div> <!----> <!----></div>
+          </div>
+          <div class="stroll-item">
+            <div class="stroll-type-item">
+              <div class="stroll-item-layer">
+                <img class="stroll-item-img" src='./e726ff1fb1d44685a91cf76ff56d5018.jpg'>
+                <span class="tag-new">New</span>
+              </div>
+              <h3 class="stroll-item-title">
+                <a href="javascript:;">分类整理收纳箱</a>
+              </h3>
+              <div class="stroll-price-bar">
+                <span class="price">￥<a>49</a></span>
+                <span class="comment">月销 4082</span>
+              </div>
+            </div> <!----> <!----></div>
+          <div class="stroll-item">
+            <div class="stroll-type-item">
+              <div class="stroll-item-layer">
+                <img class="stroll-item-img" src='./e726ff1fb1d44685a91cf76ff56d5018.jpg'>
+                <span class="tag-new">New</span>
+              </div>
+              <h3 class="stroll-item-title">
+                <a href="javascript:;">分类整理收纳箱</a>
+              </h3>
+              <div class="stroll-price-bar">
+                <span class="price">￥<a>49</a></span>
+                <span class="comment">月销 4082</span>
+              </div>
+            </div> <!----> <!----></div>
+          <div class="stroll-item">
+            <div class="stroll-type-item">
+              <div class="stroll-item-layer">
+                <img class="stroll-item-img" src='./e726ff1fb1d44685a91cf76ff56d5018.jpg'>
+                <span class="tag-new">New</span>
+              </div>
+              <h3 class="stroll-item-title">
+                <a href="javascript:;">分类整理收纳箱</a>
+              </h3>
+              <div class="stroll-price-bar">
+                <span class="price">￥<a>49</a></span>
+                <span class="comment">月销 4082</span>
+              </div>
+            </div> <!----> <!----></div>
+        </div>
       </div>
+    </scroller>
 
-
-    </div>
   </div>
 </template>
 
@@ -120,14 +149,13 @@
     text-align: center
     color: white
     font-size: 2rem
-
   .stroll-wrap
     width: 100%
     margin-top: 48px
-    background: white
+
+    overflow :hidden
     .stroll-left
       width: 50%
-      height: 300px
       float: left
       .stroll-item
         margin: 3%;

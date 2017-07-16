@@ -44,30 +44,35 @@
 
 <style lang="stylus" rel="stylesheet/stylus">
   @import "./components/stylus/mixins.styl"
-  .tab
-    position :fixed
-    bottom:0
-    left :0
-    width :100%
-    height :55px
-    box-sizing :border-box
-    padding-top :8px
-    display :flex
-    box-shadow: inset 1px 1px 1px -1px grey //1px
-    background :#f8f8f8
+  html
+    height :100%
+    /*overflow :hidden*/
+    .tab
+      position :fixed
+      bottom:0
+      left :0
+      width :100%
+      height :55px
+      box-sizing :border-box
+      padding-top :8px
+      display :flex
+      box-shadow: inset 1px 1px 1px -1px grey //1px
+      background :#f8f8f8
 
 
-    .tab-item
-      width:20%
-      text-align :center
-      .iconfont
-        display :inline-block
-        font-size 25px
-        color :none
-      p
-        font-size :14px
+      .tab-item
+        width:20%
+        text-align :center
+        .iconfont
+          display :inline-block
+          font-size 25px
+          color :none
+        p
+          font-size :14px
 
     .active
       color :green
+
+
 
 </style>

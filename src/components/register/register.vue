@@ -24,8 +24,9 @@
         </div>
       </div>
       <input type='button' value="登录" class="input input-1">
-      <input type='button' value="注册" class="input input-2">
-
+      <router-link to="/login">
+        <input type='button' value="注册" class="input input-2">
+      </router-link>
     </div>
   </div>
 </template>

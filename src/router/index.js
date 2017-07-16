@@ -7,7 +7,11 @@ import usercenter from '../components/usercenter/usercenter.vue'
 import cart from '../components/cart/cart.vue'
 import register from '../components/register/register.vue'
 import login from '../components/login/login.vue'
-
+import detail from '../components/detailspage/detailpages.vue'
+import newProduct from '../components/newProduct.vue'
+import xianshitehui from '../components/activity/xianshitehui.vue'
+import songyouhuika from '../components/activity/songyouhuika.vue'
+import jifendaoqi from '../components/activity/jifendaoqi.vue'
 
 Vue.use(Router)
 
@@ -16,30 +20,14 @@ export default new Router({
   routes: [
     {
       path :'/',
-      // component:home,
-      redirect :'/home'
+      component:home,
+    /*  redirect :'/home',*/
+      /*component :home*/
     },
     {
       path :'/home',
       component:home,
-      // children:[
-      //   {
-      //     path:'new',
-      //     component :newproduct
-      //   },
-      //   {
-      //     path:'channel/2860',
-      //     component :channel
-      //   },
-      //   {
-      //     path:'channel/2859',
-      //     component :channel
-      //   },
-      //   {
-      //
-      //   }
 
-      // ]
     },
     {
       path :'/all',
@@ -64,6 +52,27 @@ export default new Router({
     {
       path:'/login',
       component :login
-    }
+    },
+    {
+      path:'/detail',
+      component :detail
+    },
+    {
+      path :'/new',
+      component :newProduct
+    },
+    {
+      path :'/xianshitehui',
+      component :xianshitehui
+    },
+    {
+      path :'/songyouhuika',
+      component :songyouhuika
+    },
+    {
+      path :'/jifendaoqi',
+      component :jifendaoqi
+    },
+
   ]
 })
